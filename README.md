@@ -32,8 +32,8 @@
 
    cd 到项目文件夹
    ```python
-  python -m http.server 8000
-  ```
+   python -m http.server 8000
+   ```
 3. 打开浏览器并访问：
    http://localhost:8000/
 
