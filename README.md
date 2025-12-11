@@ -22,6 +22,21 @@
 - 照片上传：支持上传文件夹，所有照片放在文件夹中，自动替换占位图片并保持宽高比
 - 视觉特效：泛光（Unreal Bloom）、粒子光晕、下雪效果
 
+#### 本地运行（无需 Node）
+
+1. 确保已安装 Python 3：
+  ```python
+  python --version
+  ```
+2. 在 PowerShell 中运行：
+
+   cd 到项目文件夹
+   ```python
+  python -m http.server 8000
+  ```
+3. 打开浏览器并访问：
+   http://localhost:8000/
+
 #### 项目结构
 
 - index.html          — 页面入口
@@ -32,15 +47,7 @@
   - gestures.js       — MediaPipe 初始化与手势逻辑
   - photos.js         — 图片上传与纹理处理
 
-#### 本地运行（无需 Node）
 
-1. 确保已安装 Python 3：
-   python --version
-2. 在 PowerShell 中运行：
-   cd 到项目文件夹
-   python -m http.server 8000
-3. 打开浏览器并访问：
-   http://localhost:8000/
 
 #### 重要说明
 
